@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "gablkez8d7");
+</script>
+    <title>‎ </title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+html,body {
+  background-color: #272730;
+}
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 7%;
+  transform: translateX(-50%);
+  justify-self: center;
+  align-self: center;
+  font-family: Roboto;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 50px;
+}
+h3 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  justify-self: center;
+  align-self: center;
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.mainlist {
+  background-color: #80808033;
+  display: fixed;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: fit-content;
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 7px;
+  backdrop-filter: blur(5px);
+  border-color: #AAAAAA;
+  border-style: solid;
+  border-width: 1px;
+  transition: 0.5s;
+  position: absolute;
+  left: 50%;
+  top: 400px;
+  transform: translateX(-50%);
+}
+
+.mainlist button {
+  margin-bottom: 30px;
+  font-family: Roboto;
+  text-decoration: none;
+  color: #000000;
+  width: fit-content;
+  transition: 0.5s;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px 0px 2px 0px;
+  display: flex;
+  height: fit-content;
+  justify-self: center;
+  align-self: center;
+  font-size: 25px;
+  user-select: none;
+  background-color: transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 3px 3px 0px 0px;1
+}
+
+.mainlist button:hover {
+  border-color: #000000;
+}
+
+.mainlist button:focus-within {
+   background-color: #FFFFFF33;
+}
+
+input {
+  margin-bottom: 30px;
+  font-family: Roboto;
+  text-decoration: none;
+  color: #000000;
+  width: 300px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0px 0px 2px 0px;
+  display: flex;
+  height: fit-content;
+  justify-self: center;
+  align-self: center;
+  font-size: 16px;
+  user-select: none;
+  background-color: #FFFFFF;
+  padding: 11px;
+  padding-left: 30px;
+  border-radius: 25px;
+  transition: 1s;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  transform: translateX(-50%);
+}
+
+input::placeholder {
+  color: #5F6368;
+}
+      
+input:focus {
+  outline: none;
+  border-radius: 10px;
+  width: 400px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.icon {
+  width: 100px;
+  hieght: 100px;
+  -webkit-mask-image: url('chrome://new-tab-page/search.svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+      url(chrome://resources/roboto/roboto-regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+      url(chrome://resources/roboto/roboto-medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+      url(chrome://resources/roboto/roboto-bold.woff2) format('woff2');
+}
+    </style>
+</head>
+  
+    <script>
+function site(thisUrl) {
+    window.navigator.serviceWorker.register('./sw.js', {
+        scope: __uv$config.prefix
+    }).then(() => {
+        let url = thisUrl;
+        if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
+        else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
+
+        window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+  });
+};
+
+function isUrl(val = ''){
+    if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
+    return false;
+};
+    </script>
+
+    <h1>Blank Games</h1>
+
+    <form>
+      <input id="search" placeholder="Search Google or type a URL">
+    </form>
+
+  
+    <div class="mainlist">
+      
+      <button onclick="site('https://forms.gle/iBvFQZiy842PvpYC9')">Suggest A Game/Site</button>
+
+      <button onclick="site('https://forms.gle/kdnLZ91mDbVSS87H7/')">Get Emailed New Unblocked Links</button>
+
+      <button onclick="site('https://youtube.com/')">Youtube</button>
+
+      <button onclick="site('https://tiktok.com/')">Tiktok</button>
+
+      <button onclick="site('https://www.twitch.tv/')">Twitch</button>
+
+      <button onclick="site('https://open.spotify.com/')">Spotify</button>
+
+      <button onclick="site('https://instagram.com/')">Instagram</button>
+
+      <button onclick="site('https://www.mozmath.xyz/11.html?id=h7rswt42b6')">Minecraft 1.5.2</button>
+
+      <button onclick="site('https://www.crazygames.com/')">Crazy Games</button>
+
+      <button onclick="site('https://play2048.co/')">2048</button>
+
+      <button onclick="site('https://agar.io/')">Agar.io</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/air-wars-3/index.html')">Air Wars 3</button>
+
+      <button onclick="site('https://www.miniplay.com/embed/baldis-basics-in-education-and-learning')">Baldi's Basics</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/ball-blast/index.html')">Ball Blast</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-big-flappy-tower-tiny-square/play')">Big Flappy Tower Tiny Square</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-big-ice-tower-tiny-square/play')">Big Ice Tower Tiny Square</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-big-neon-tower-tiny-square/play')">Big Neon Tower Tiny Square</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-big-tower-tiny-square/play')">Big Tower Tiny Square</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-big-tower-tiny-square-2/play')">Big Tower Tiny Square 2</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/burnin-rubber-multiplayer/index.html')">Burnin' Rubber Multiplayer</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/buildnow-gg/index.html')">BuildNow GG</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/capybara-clicker/index.html')">Capybara Clicker</button>
+      
+      <button onclick="site('http://plainchess.timwoelfle.de/')">Chess</button>
+
+      <button onclick="site('https://trixter9994.github.io/Cookie-Clicker-Source-Code/')">Cookie Clicker</button>
+
+      <button onclick="site('https://beta.deeeep.io/')">Deeeep.io</button>
+
+      <button onclick="site('https://diep.io/')">Diep.io</button>
+
+      <button onclick="site('https://chromedino.com/')">Dino Game</button>
+
+      <button onclick="site('https://js-dos.com/DOOM/')">Doom</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-dots-and-boxes/play')">Dots & Boxes</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/duck-hunt/index.html')">Duck Hunt</button>
+
+      <button onclick="site('https://evoworld.io/')">EvoWorld.io</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/fields-of-fury/index.html')">Fields of Fury</button>
+      
+      <button onclick="site('https://scratch.mit.edu/projects/549729982/embed')">Flappy Bird</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/funny-shooter-2/index.html')">Funny Shooter 2</button>
+
+      <button onclick="site('https://garticphone.com/')">Gartic Phone</button>
+
+      <button onclick="site('https://scratch.mit.edu/projects/389464290/embed')">Getting Over It</button>
+
+      <button onclick="site('https://totaljerkface.com/happy_wheels.tjf')">Happy Wheels</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/helix-jump/index.html')">Helix Jump</button>
+      
+      <button onclick="site('https://hole-io.com/')">Hole.io</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/horde-killer-you-vs-100/index.html')">Horde Killer: You vs 100</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/jet-rush/index.html')">Jet Rush</button>
+
+      <button onclick="site('https://krew.io/')">Krew.io</button>
+
+      <button onclick="site('https://krunker.io/')">Krunker</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/looper-czi/index.html')">Looper</button>
+
+      <button onclick="site('https://www.miniplay.com/embed/mario-kart-64')">Mario Kart 64</button>
+
+      <button onclick="site('https://www.google.com/fbx?fbx=minesweeper')">Minesweeper</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-mini-metro-london/play')">Mini Metro: London</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-moto-x3m/play')">MotoX3M</button>
+      
+      <button onclick="site('https://www.coolmathgames.com/0-moto-x3m-pool-party/play')">MotoX3M Pool Party</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-moto-x3m-spooky-land/play')">MotoX3M Spooky Land</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-moto-x3m-winter/play')">MotoX3M Winter</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/mx-offroad-master/index.html')">MX Offroad Master</button>
+
+      <button onclick="site('https://www.google.com/logos/2010/pacman10-i.html')">Pacman</button>
+
+      <button onclick="site('https://paper-io.com/')">Paper.io 2</button>
+
+      <button onclick="site('https://scratch.mit.edu/projects/10128407/embed')">Paper Minecraft</button>
+
+      <button onclick="site('https://archive.org/embed/pokemon-blue-version-gb')">Pokemon Blue</button>
+
+      <button onclick="site('https://archive.org/embed/pokemon-red-version')">Pokemon Red</button>
+
+      <button onclick="site('https://archive.org/embed/pokemon-red-version')">Pokemon X & Y</button>
+
+      <button onclick="site('https://pong.fmscolorado.repl.co')">Pong</button>
+      
+      <button onclick="site('https://quickdraw.withgoogle.com/')">Quick, Draw!</button>
+
+      <button onclick="site('https://game316009.konggames.com/gamez/0031/6009/live/index.html')">Retro Bowl</button>
+      
+      <button onclick="site('https://rocketbotroyale2.winterpixel.io')">Rocket Bot Royale</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-run/play')">Run</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-run-3/play')">Run 3</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/sandbox-city---cars-zombies-ragdolls/index.html')">Sandbox City - Cars, Zombies, Ragdolls!</button>
+      
+      <button onclick="site('https://sega-virtual-racing.fmscolorado.repl.co/')">Sega Virtual Racer</button>
+
+      <button onclick="site('https://shapez.io/')">Shapez.io</button>
+
+      <button onclick="site('https://yp3d.com/ships3d/')">Ships 3D</button>
+
+      <button onclick="site('http://slither.io/')">Slither.io</button>
+
+      <button onclick="site('https://slopegame.io/1.embed')">Slope</button>
+
+      <button onclick="site('https://smashkarts.io/')">Smash Karts</button>
+
+      <button onclick="site('https://www.google.com/fbx?fbx=snake_arcade')">Snake</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/sniper-shot-bullet-time/index.html')">Sniper Shot: Bullet Time</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-solitaire/play')">Solitaire</button>
+
+      <button onclick="site('https://emulatorgames.online/games/gba/sonic-the-hedgehog-genesis/mobile?link=https://emulatorgames.online/games/gba/sonic-the-hedgehog-genesis/iframe')">Sonic Genesis</button>
+
+      <button onclick="site('https://spelunky.fmscolorado.repl.co')">Spelunky</button>
+
+      <button onclick="site('https://stabfish2.io/')">Stab Fish 2</button>
+
+      <button onclick="site('https://stug.io/')">Stug</button>
+
+      <button onclick="site('https://subway-surfers.fmscolorado.repl.co')">Subway Surfers</button>
+
+      <button onclick="site('https://sudoku.com/')">Sudoku</button>
+
+      <button onclick="site('https://emulatorgames.online/games/n64/super-mario-64/iframe')">Super Mario 64</button>
+
+      <button onclick="site('https://tetris.com/')">Tetris</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-the-final-earth-2/play')">The Final Earth 2</button>
+
+      <button onclick="site('https://www.experimonkey.com/games/swf-games/the-impossible-quiz/the-impossible-quiz.swf')">The Impossible Quiz</button>
+
+      <button onclick="site('https://www.coolmathgames.com/0-tic-tac-toe/play')">Tic Tac Toe</button>
+
+      <button onclick="site('https://games.crazygames.com/en_US/time-shooter-3-swat/index.html')">Time Shooter 3: SWAT</button>
+
+      <button onclick="site('https://tronunblocked.com/tronunblocked.swf')">Tron</button>
+      
+      <button onclick="site('https://tunnelrush.github.io/games/tunnel-rush/index.html')">Tunnel Rush</button>
+
+      <button onclick="site('https://vex5.io/vex-5.embed')">Vex 5</button>
+      
+    </div>
+  
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
